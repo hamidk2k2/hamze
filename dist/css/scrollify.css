@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****** Main ********/
+
+body {
+	color:white;
+	font-size:62.5%;
+	font-family: 'Lato', sans-serif;
+}
+.vertical-center {
+	text-align:center;
+	width:100%;
+	position: absolute;
+	top: 47%;
+	transform: translateY(-47%);
+}
+.vertical-center p {
+	margin-top:23px;
+}
+
+.inner {
+	position: relative;
+	height:100%;
+
+	width:80%;
+	margin:0 auto;
+}
+
+.code {
+	background:rgba(0,0,0,0.2);
+}
+
+
+.pagination {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.4em;
+    z-index: 1000000000;
+}
+.pagination a {
+	display:block;
+	height:20px;
+	margin-bottom:5px;
+	color:white;
+	position:relative;
+	padding:4px;
+}
+.pagination a.active:after {
+	box-shadow:inset 0 0 0 5px;
+}
+.pagination a .hover-text {
+	position: absolute;
+	right: 25px;
+	top: 0px;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	width: 130px;
+	font-family: IranSharp;
+	font-size: 12px;
+	background: rgba(0, 0, 0, 0.73);
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	padding: 0;
+	pointer-events: none;
+}
+.pagination a .hover-text:before {
+	position: absolute;
+	width: 5px;
+	height: 14px;
+	font-family: "Font Awesome 5 Free";
+	content: "\f0da";
+	right: -4px;
+	font-size: 19px;
+	color: #000;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pagination a:hover .hover-text {
+	opacity: 1;
+}
+.pagination a:after {
+	-webkit-transition:box-shadow 0.5s ease;
+	transition:box-shadow 0.5s ease;
+	width:10px;
+	height:10px;
+	display: block;
+	border:1px solid;
+	border-radius:50%;
+	content:'';
+	position: absolute;
+	margin:auto;
+	top:0;
+	right:4px;
+	bottom:0;
+}
+
+
+
+
+.social-corner {
+	position: absolute;
+	top:18px;
+	right:40px;
+}
+.social-corner iframe:first-child {
+	margin-right:3px;
+}
+.vertical-center p.cta {
+	margin-top:5px;
+}
+.vertical-center a:link,
+.vertical-center a:visited {
+	color:white;
+	text-decoration:none;
+	font-size:0.6em;
+}
+.vertical-center a:hover {
+	text-decoration: underline;
+}
+.arrow {
+	position: relative;
+	padding-right:15px;
+}
+
+.arrow:before,
+.arrow:after {
+	content:'';
+	position: absolute;
+	right:0;
+	top:7px;
+
+	width:2px;
+	height:12px;
+	background: white;
+}
+.arrow:before {
+	transform: rotate(45deg);
+	top:15px;
+}
+.arrow:after {
+	transform: rotate(-45deg);
+}
+
+@media (max-width:800px) {
+	h1 {
+		font-size:15vw;
+	}
+	h2 {
+		font-size:12vw;
+	}
+	.inner {
+		width:70%;
+
+	}
+}

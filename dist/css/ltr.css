@@ -1,0 +1,139 @@
+html, body {
+    direction: ltr;
+    font-family: Montserrat,IranYekan !important;
+}
+h2.titleFooterSec ,.contentSec .namad h2 {
+    font-family: Montserrat,IranSharp !important;
+}
+a {
+    font-family: Montserrat,IranYekan ;
+}
+.langSelect {
+    left:auto;
+    right: -8px;
+}
+.langSelect .langsSel {
+    position: absolute;
+    min-width: 150;
+    left: auto;
+    right: 26px;
+    z-index: 10;
+    top: 0;
+    transform-origin: right;
+    transform: translate(-100px, 0px);
+    pointer-events: none;
+}
+.sidebar {
+    left:auto;
+    right: 0;
+    transform-origin: right;
+    transform: translateX(380px);
+}
+.sidebar:before {
+    right: auto;
+    left: 0;
+}
+.sidebar i.close {
+    right: auto;
+    border-width: 2px 0px 2px 2px;
+    left: -40px;
+}
+.descriptVideoHome {
+    left: 0;
+    right: auto;
+    transform: translate3d(-130px, 70px, 40px);
+}
+.contentSec .BoxVideo {
+    transform: translate3d(150px, -150px, -100px);
+}
+.adminTitleAbout {
+    left: auto;
+    right: -32%;
+    align-items: flex-end;
+}
+.contentAboutAd {
+    width: 80%;
+    align-items: flex-start;
+}
+img.handObject {
+    left: auto;
+    right: 0;
+    transform: scaleX(-1);
+}
+.topNewsFooter label.dateNewsFooter {
+    right: auto;
+    left: -40px;
+}
+img.footerObject {
+    left: auto !important;
+    right: -7vw !important;
+    transform: scaleX(-1) !important;
+}
+.contentOther a.linkOther {
+    padding: 5px 0 5px 20px;
+}
+a.linkOther:before {
+    right: auto;
+    left: 0;
+}
+a.linkOther:after {
+    left: 5px;
+    right: auto;
+}
+.boxConactFooter .decript p {
+    padding: 0 10px 0 30px;
+    line-height: 24px;
+    font-size: 12px;
+    background: url(../img/IconLocation.png) no-repeat 2% 0px / 18px;
+}
+section .TopLine label {
+    margin-right: 100px;
+    margin-left: 0;
+}
+section .TopLine {
+    justify-content: flex-start;
+}
+span.arrowBrdcrumb.fa.fa-chevron-left {
+    transform: scaleX(-1);
+}
+.rightBlack {
+    left: 0;
+    right: auto;
+}
+h2.textBoxBerguer {
+    right: -7vw;
+    left: auto;
+}
+section.panel .anim ,section.panel .anim1 , section.panel .anim2 , section.panel .anim3{
+    transform: translateX(-200px);
+}
+.customerName {
+    padding: 10px 0 10px 45px;
+}
+.customerName::before {
+    right: auto;
+    left: 0;
+}
+.paginationContent {
+    flex-direction: row-reverse;
+}
+.row .boxProducts .titleLinkProd {
+    flex-direction: row-reverse;
+}
+.row .boxProducts:nth-child(even) .titleLinkProd {
+    flex-direction: row;
+    left: auto;
+    right: -3%;
+}
+.bgSidebar {
+    left: auto;
+    right: 0;
+    transform-origin: right;
+}
+
+@media only screen and (max-width: 840px) {
+    .langSelect {
+        left: auto;
+        right: 33px;
+    }
+}

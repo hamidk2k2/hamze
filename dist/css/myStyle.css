@@ -1,0 +1,844 @@
+@import "fonts.css";
+@import "style.css";
+@import "fiveStar.css";
+@import "animate.css";
+@import "GalleryPopUp.css";
+@import "magnific-popup.css";
+@import "owl.carousel.min.css";
+@import "menu.css";
+@import "font-awesome.min.css";
+@import "mapbox.css";
+@import "asPieProgress.css";
+
+@media only screen and (max-width: 1360px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .contentHome {
+        position: relative;
+        width: calc(100% - 80px);
+        margin: 110px auto 0;
+    }
+    .rightBlack.bxNanner h2.textBoxBerguer {
+        position: absolute;
+        top: 0;
+        left: -5vw;
+        bottom: 0;
+        margin: auto;
+        height: 10vw;
+        font-family: DinarTwo;
+        width: 10vw;
+        font-size: 4.5vw;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .rightBlack.bxNanner h2.textBoxBerguer {
+        position: absolute;
+        top: 0;
+        left: -3.5vw;
+        bottom: 0;
+        margin: auto;
+        height: 50%;
+        font-family: DinarTwo;
+        width: 80%;
+        font-size: 3.5vw;
+        text-align: center;
+        right: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.54);
+        border-radius: 100%;
+    }
+    header {
+        background: no-repeat center top / auto 100%;
+    }
+    footer.FooterInner img.footerObject {
+        bottom: -20vw;
+        left: 0vw;
+    }
+    .SliderTop .SlideBoxAbout:before {
+        position: relative;
+        content: '';
+        padding-top: 50%;
+        display: block;
+    }
+    p.CnttextSlider1 {
+        font-size: 12px;
+    }
+    .contentHome section {
+        position: relative;
+        min-height: 70vh;
+    }
+    .descriptVideoHome {
+        height: 30vw;
+        min-width: 320px;
+    }
+    .sliderSec4 .owl-nav i.arrowLeft {
+        right: -40px;
+    }
+    .sliderSec4 .owl-nav i.arrowRight {
+        left: -40px;
+    }
+    .adminTitleAbout {
+        top: 31%;
+        left: -28%;
+    }
+    .contentAboutAd {
+        position: relative;
+        width: 75%;
+        font-size: 12px;
+    }
+    footer .contentSec {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .row.articles .boxProducts:before {
+        padding-top: 60%;
+    }
+    .CircleBox h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+    span.NumberProg {
+        font-size: 30px;
+    }
+    .lineSec6 .ContentLineSec6 {
+        background: url(../img/bgSec6.png) repeat left / 100%;
+        min-height: 200px;
+    }
+    .right80Per {
+        height: 100%
+    }
+    .right80Per div {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .adminTitleAbout {
+        top: 24%;
+        left: -28%;
+    }
+
+    section.sec1 .owl-nav {
+         top: 13vw;
+     }
+    .contentSec .boxSlider1:before {
+        top: 12.5vw;
+    }
+    .boxSlider1 .left .textSlider1 {
+        height: 32vw;
+    }
+
+}
+@media only screen and (max-width: 840px) {
+    .contentAboutAd p {
+        /* padding: 0 20px; */
+        line-height: 18px;
+    }
+    .adminTitleAbout h3 {
+        font-size: 18px;
+    }
+    .adminTitleAbout h2 {
+        font-size: 30px;
+    }
+    section.sec1 .owl-nav {
+        top: 16vw;
+    }
+    .contentSec .boxSlider1:before {
+        top: 15.5vw;
+    }
+    .boxSlider1 .left .textSlider1 {
+        height: 28vw;
+    }
+    .langSelect {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        background: transparent;
+        left: 28px;
+        top: 22px;
+        min-width: 22px;
+        min-height: 22px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .rightBlack.bxNanner h2.textBoxBerguer {
+        top:auto;
+        left: 0;
+        bottom: 4vw;
+        margin: auto;
+        height: 15vw;
+        width: 15vw;
+        font-size: 7vw;
+        right: 0;
+        background: none;
+    }
+    .BoxContLeft h2 {
+        font-size: 20px;
+    }
+    .BoxContLeft h3 {
+        font-size: 16px;
+        text-align: right;
+    }
+    .row .boxProducts .titleLinkProd a {
+        font-size: 16px;
+    }
+    .boxGall {
+        width: calc(33.333% - 2px);
+    }
+
+    button.showSidebar {
+        pointer-events: auto;
+    }
+    .boxArtSec6 {
+        width: calc(100% / 3);
+    }
+    .adminTitleAbout {
+        top: 19%;
+        left: -28%;
+    }
+    .contentSec .namad h2 {
+        font-size: 14px;
+    }
+    .contentSec .boxSlider1 {
+        flex-wrap: wrap;
+    }
+    .boxSlider1 .right , .boxSlider1 .left {
+        width: 100%;
+    }
+    section.sec1 {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .boxSlider1 .right .BoxImg {
+        width: calc(80%);
+        margin: 0 auto;
+    }
+    .boxSlider1 .left h2.titleSlider1 {
+        width: 80%;
+        margin: 0 auto!important;
+    }
+    .boxSlider1 .left p.CnttextSlider1 {
+        font-size: 14px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .linkes {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contentSec .boxSlider1 {
+        flex-direction: column;
+        justify-content: flex-start;
+        display: flex;
+        height: auto;
+    }
+    .contentSec {
+        position: relative;
+    }
+    section.sec1:before {
+        padding-top: 5%;
+    }
+    section.sec2:before {
+        padding-top: 5%;
+    }
+    section.sec2 .contentSec {
+        position: relative;
+        flex-direction: column;
+        height: auto;
+    }
+    .descriptVideoHome {
+        position: relative;
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+    .contentSec .BoxVideo {
+        width: calc(100%)
+    }
+    .boxSlider1 .left {
+        margin: 10% 0 15%;
+        height: auto;
+    }
+    .contentHome {
+        position: relative;
+        width: calc(100% - 80px);
+        margin: 110px auto 0;
+        display: flex;
+        flex-direction: column;
+    }
+    h2.titleSlider1 {
+        padding: 8px 0;
+        font-size: 3vw;
+    }
+    .BoxProdSec3 {
+        flex-wrap: wrap;
+    }
+    .BoxProdSec3 .Right, .BoxProdSec3 .Left {
+        width: 100%;
+    }
+    .BoxProdSec3 .Right .contentBoxProdS3 {
+        width: calc(100% - 0px);
+    }
+    .picBox img.prodpicbox3 {
+        right: 0px;
+    }
+
+}
+@media only screen and (max-width: 680px) {
+    .row.articles .boxProducts:before {
+        padding-top: 80%;
+    }
+    .row.articles .boxProducts:nth-child(even) .bgBoxProd .textContent {
+        width: 92%;
+    }
+    .pagination {display: none;}
+    .rightBlack.bxNanner {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        pointer-events: auto;
+    }
+    .ContentSectionPro section {
+        min-height: unset;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .boxPortfolio .boxPortf {
+        width: calc((100% / 2 ) - 15px);
+    }
+    .boxProdVariety .ProdVarentyBox {
+        position: relative;
+        width: calc((100% / 2) - 10px);
+    }
+    section.panel .inner .left {
+        width: 100%;
+    }
+    section.panel .inner .right {
+        width: 0;
+    }
+    section.panel.faq {
+        margin-bottom: 100px;
+    }
+    .FooterSocialIcon {
+        position: relative;
+        left: 0;
+        bottom: 20px;
+        height: 40px;
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+    nav.MenuTop {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 110px;
+        z-index: 1000000000000;
+    }
+    .rightBlack.bxNanner {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        pointer-events: auto;
+    }
+    .rightBlack.bxNanner h2.textBoxBerguer {
+        position: relative;
+        top: auto;
+        left: 0;
+        bottom: -28px;
+        margin: auto;
+        height: 80px;
+        width: 100%;
+        right: 0;
+        background: none;
+        font-size: 86px;
+    }
+    .row .boxProducts {
+        position: relative;
+        width: calc(100%);
+    }
+    .CommentShow .rowCM {
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .textContent img {
+        width: 100%;
+    }
+    .row .RightContact, .row .LeftContact {
+        width: 100%;
+    }
+    .boxGall {
+        width: calc(50% - 2px);
+    }
+    .circlesRate {
+        flex-wrap: wrap;
+    }
+    .CircleBox h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+    .CircleBox {
+        position: relative;
+        width: calc((100% / 2) - 10px);
+    }
+    section.sec2 .imgBgSec2 svg {
+        /* opacity: 1; */
+        stroke: #fff;
+        fill: #eee;
+        transition: all 1s;
+        height: 100%;
+        margin: auto;
+        width: 100%;
+    }
+    section.sec2 .imgBgSec2 {
+        right: 0;
+        height: 80%;
+    }
+    footer .contentSec .left {
+        display: flex;
+        width: calc(100% - 40px);
+        margin: 10px 0;
+    }
+    img.footerObject {
+        opacity: 0.4;
+    }
+    footer .contentSec .right {
+        width: calc(100% - 40px);
+        margin: 10px 0;
+    }
+    .rowDownFooter {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .boxArtSec6 {
+        position: relative;
+        width: calc(100% / 2);
+        background: no-repeat center / auto 100%;
+    }
+    .boxArtSec6 {
+        position: relative;
+        width: calc(100% / 2);
+        background: no-repeat center / auto 100%;
+    }
+    .goToArtArch {
+        width: calc(100%);
+    }
+
+    .goToArtArch:before {
+        padding: 15%;
+    }
+    .right80Per div {
+        width: calc(50% - 20px);
+    }
+    .right80Per {
+        width: 80%;
+    }
+    .adminTitleAbout {
+        top: 15%;
+        left: -25%;
+    }
+    section.sec5 .contentSec .earthIcon {
+        display: none;
+    }
+    section.sec5 .contentSec .namad {
+        width: calc(30% - 30px);
+    }
+    section.sec5 .contentSec .AboutAdmin {
+        width: 75%;
+    }
+    .adminTitleAbout {
+        top: 25%;
+        left: -28%;
+    }
+    .bocImgAboutAdmin {
+        position: absolute;
+        left: 0%;
+        min-width: 75%;
+        top: 65%;
+        width: 32vw;
+        height: 40vw;
+    }
+    nav.MenuTop:after {
+        background: rgb(35, 35, 35);
+    }
+}
+@media only screen and (max-width: 580px) {
+    .rowDownFooter {
+        justify-content: center;
+    }
+
+    .adminTitleAbout {
+        top: 18%;
+        left: -26%;
+    }
+    .contentSec .namad h2 {
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .boxSlider1 .left {
+        margin: 10% 0 25%;
+    }
+    .boxSlider1 .left p.CnttextSlider1 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .row.articles .boxProducts:before {
+        padding-top: 100%;
+    }
+    .row.articles .boxProducts {
+        width: calc(100% - 10px);
+    }
+    .rightBlack.bxNanner {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        pointer-events: auto;
+    }
+    h2.titleAbout {
+        font-size: 20px;
+    }
+    .About p.textAbout {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    footer.FooterInner img.footerObject {
+        left: 3vw;
+    }
+    .SliderTop .SlideBoxAbout:before {
+        padding-top: 60%;
+    }
+    section.sec2 .imgBgSec2 {
+        right: auto;
+        left: 0;
+    }
+    section .TopLine .contentSec {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    section .TopLine .contentSec label {
+        text-align: center;
+        margin: auto;
+    }
+    .boxArtSec6 {
+        width: calc(100%);
+    }
+
+    .goToArtArch:before {
+        padding: 25%;
+    }
+    .boxServiceSec4 .right {
+        position: relative;
+        width: 100%;
+    }
+    .owl-carousel .owl-item .boxServiceSec4 img.picServiceBox {
+        position: absolute;
+        bottom: -10vw;
+        left: 0%;
+        width: 80%;
+    }
+    .right80Per {
+        width: 100%;
+        margin: 0 0 50px;
+    }
+    .boxSlider1 .left {
+        margin: 10% 0 35%;
+    }
+    .adminTitleAbout {
+        top: 14%;
+        left: -24%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .row.articles .boxProducts:nth-child(even) .bgBoxProd .textContent {
+        width: 85%;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .row.articles .boxProducts:nth-child(even) .bgBoxProd .textContent {
+        width: 85%;
+    }
+    .rightBlack.bxNanner {
+        height: 350px;
+    }
+    .boxPortfolio .boxPortf {
+        width: calc((100% ) - 15px);
+    }
+    .boxProdVariety .ProdVarentyBox {
+        position: relative;
+        width: calc((100%) - 10px);
+    }
+    .rightBlack.bxNanner h2.textBoxBerguer {
+        bottom: 15px;
+        font-size: 65px;
+    }
+    .h_iframe-aparat_embed_frame {
+        position: relative;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    .row .boxProducts .bgBoxProd a.BtnShowProd {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .row .boxProducts label.newBadges {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 40px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .boxGall {
+        width: calc(100% - 2px);
+    }
+    .formEm input {
+        width: 100%;
+    }
+    .VideoBoxAbout {
+        width: calc(100% - 0px);
+        background: rgba(29, 29, 29, 0.36);
+    }
+    footer .center .decript {
+        padding: 10px 20px;
+        width: calc(100% - 40px);
+    }
+    .VideoAbout p.textVideo {
+        font-size: 12px;
+    }
+    .CircleBox h2 {
+        font-size: 18px;
+    }
+    .row.btns {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .row.btns a.multimedia {
+        margin: 0 auto;
+        min-height: 30px !important;
+        width: 100%;
+        margin: 5px;
+    }
+    .SliderTop .SlideBoxAbout:before {
+        padding-top: 70%;
+    }
+    .btnBtn {
+        width: calc(100% - 50px);
+    }
+    .LogoFooter a svg.svgLogo {
+        top: 0px;
+        height: 100%;
+    }
+    .BoxProdSec3 .Right .contentBoxProdS3 {
+        width: calc(100% - 0px);
+        flex-wrap: wrap;
+    }
+    .contentBoxProdS3 .picBox {
+        width: calc(100% - 25px);
+        margin: 0 auto;
+    }
+    .contentBoxProdS3 .TextBox , .BoxProdSec3 .Right .SlideProdBox:nth-child(even) .contentBoxProdS3 .TextBox {
+        width: calc(100% - 25px);
+        margin: 0 auto;
+    }
+    .boxConactFooter {
+        flex-wrap: wrap;
+    }
+    .boxConactFooter .decript {
+        width: 100%;
+    }
+    .LogoFooter {
+        width: 100%;
+        height: 55vw;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+        /* min-height: 55vw; */
+        background: url(../img/bgFooter1.png) no-repeat bottom center / 100%;
+        padding: 50px 0 100px;
+    }
+    .Others {
+        position: relative;
+        width: 100%;
+    }
+    .right80Per div {
+        width: calc(100% - 20px);
+    }
+    .adminTitleAbout {
+        top: 50%;
+        left: -26%;
+    }
+    .boxSlider1 .left {
+        margin: 10% 0 50%;
+    }
+    .boxSlider1 .right .BoxImg {
+        width: calc(100%);
+        margin: 0 auto;
+    }
+    .boxSlider1 .left h2.titleSlider1 {
+        width: 100%;
+        margin: 10px auto!important;
+    }
+    .boxSlider1 .left p.CnttextSlider1 {
+        width: 100%;
+    }
+    .descriptVideoHome {
+        height: auto;
+        min-width: unset;
+    }
+    .adminTitleAbout h2 {
+        font-size: 23px;
+    }
+    section.sec5 .contentSec {
+        flex-wrap: wrap;
+    }
+    section.sec5 .contentSec .namad {
+        width: calc(100% - 40px);
+        max-height: 220px;
+    }
+    section.sec5 .contentSec .AboutAdmin {
+        width: calc(100% - 10px);
+    }
+    .contentNamad {
+        max-height: 160px;
+    }
+    .bocImgAboutAdmin {
+        position: relative;
+        width: calc(100% - 10px);
+    }
+    .contentAboutAd {
+        width: 100%;
+    }
+    .contentAboutAd p {
+        width: calc(100% - 40px);
+    }
+
+}
+@media only screen and (max-width: 420px) {
+    .CircleBox {
+        position: relative;
+        width: calc((100% ) - 10px);
+    }
+    .CircleBox h2 {
+        font-size: 26px;
+    }
+    span.NumberProg {
+        font-size: 24vw;
+    }
+    footer .contentSec .right {
+        flex-wrap: wrap;
+    }
+    .newsBoxFooter {
+        width: 100%;
+    }
+    h2.titleFooterSec {
+        text-align: center;
+    }
+    footer .contentSec .contentOther {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .owl-carousel .owl-item .boxServiceSec4 img.picServiceBox {
+        bottom: 0vw;
+        left: 0%;
+        width: 100%;
+        opacity: 0.2;
+    }
+    .adminTitleAbout {
+        top: 54%;
+        left: -42%;
+        width: calc(150% - 160px);
+    }
+
+    .linkes {
+        transform: scale(0.8) translate(40px, -8px);
+    }
+    .SliderTop .SlideBoxAbout .contentSlideBoxAbout {
+        background: no-repeat 20% center / auto 100%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .right80Per {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .adminTitleAbout {
+        top: 59%;
+        left: -64%;
+        width: calc(200% - 160px);
+    }
+
+}
+@media only screen and (max-width: 360px) {
+    .row .boxProducts:nth-child(even) .bgBoxProd a.BtnShowProd {
+        right: 0px;
+        left: auto;
+        bottom: 0;
+    }
+
+    .SliderTop .SlideBoxAbout:before {
+        padding-top: 100%;
+    }
+    .rowDownFooter span.right , .rowDownFooter span.left , .rowDownFooter span.left a {
+        font-size: 12px;
+    }
+    .boxSlider1 .left p.CnttextSlider1 {
+        font-size: 10px;
+    }
+    .adminTitleAbout {
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+    }
+    .adminTitleAbout {
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+        width: calc(100% - 40px);
+        position: relative;
+    }
+    .row .boxProducts .bgBoxProd a.BtnShowProd {
+        bottom: 0px;
+        left: 0px;
+        font-size: 12px;
+    }
+    .row .boxProducts .titleLinkProd a {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 280px) {
+
+}
+

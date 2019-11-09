@@ -1,0 +1,23 @@
+.groupMap {
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+.js-map.mapboxgl-map {
+	width: 100%;
+	height: 100%;
+}
+.mapboxgl-marker.mapboxgl-marker-anchor-center {
+	background-image: url(../img/markerMapIcon.png);
+	background-size: cover;
+	height: 35px;
+	border-radius: 0%;
+	cursor: pointer;
+	width: 35px;
+	background-position: center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+.mapboxgl-marker.mapboxgl-marker-anchor-center svg {
+	display: none;
+}
